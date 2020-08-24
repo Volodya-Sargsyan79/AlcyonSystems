@@ -1,0 +1,67 @@
+.why_window{
+  background: url("https://res.cloudinary.com/alcyonsystems/image/upload/v1583139863/AlcyonSystems/whyus_gnyska.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+
+    .why_tophover{
+      //animation: anim1 1s;
+      transform: translate(0,0);
+      transition: 1s;
+    }
+    .why_bottomhover{
+      //animation: anim2 1s;
+      transform: translate(0,0);
+      transition: 1s;
+    }
+
+  }
+
+  p{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: .9em;
+    margin: 0;
+  }
+
+  margin: 0 auto;
+  .why_tophover{
+    background-color: rgba(255,255,255,.8);
+    width: 100%;
+    padding: 17vh 2vw 0 2vw;
+
+    transform: translate(-180%,0);
+    transition: 1s;
+    flex: 1.2;
+  }
+
+  .why_bottomhover{
+    padding: 0vh 2vw 17vh 2vw;
+    background-color: rgba(255,255,255,.8);
+    transform: translate(180%,0);
+    transition: 1s;
+    flex: 1;
+  }
+
+
+}
+.why_relative{
+  position: relative;
+  margin-top: 15vh;
+  h2{
+    position: absolute;
+    text-shadow: 2px 2px 4px white;
+    z-index: 4;
+    left: 0;
+    top:-8% ;
+    font-size: 345%;
+    color: black;
+
+  }
+}

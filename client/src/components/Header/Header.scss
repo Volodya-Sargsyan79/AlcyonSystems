@@ -1,0 +1,46 @@
+.header_main{
+  // height: 100vh;
+}
+.nav_fixed{
+  position: fixed;
+  width: 10%;
+
+  right: 3%;
+
+  top:5%;
+
+  z-index: 3;
+
+}
+.absolute{
+  position: fixed;
+  z-index: 1999;
+  background:white;
+  height: 15%;
+  width: 100%;
+
+}
+.header_container{
+  width: 100%;
+  margin: 0 auto;
+
+}
+.logo{
+  position: fixed;
+  width: 10%;
+  top:3%;
+  left: 7%;
+  z-index: 3;
+  
+  img{
+    width: 100%;
+    cursor: pointer;
+
+  }
+}
+.flagTop{
+ position: absolute;
+  top:35%;
+  right: 1%;
+  z-index: 22;
+}

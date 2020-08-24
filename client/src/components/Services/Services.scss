@@ -1,0 +1,152 @@
+.services{
+  width: 100%; 
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  .services_content{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .services_text{
+      margin-top: 10vh;
+      margin-left: 5vw;
+      h2{
+        font-size: 300%;
+        color:white;
+        margin-bottom: 5vh;
+      }
+      p{
+        color: white;
+        letter-spacing: .1em;
+        font-size: 110%;
+        width: 70%;
+      }
+    }
+    .hoverPos{
+      position: absolute;
+      top: 0;
+      padding: 10vh;
+      height: 100%;
+      p{
+        transform: translate(0,20vh);
+        font-weight: 500;
+        color: black;
+        font-size: 120%;
+        letter-spacing: .2em;
+      }
+    }
+    .hoverStart{
+      transform: translate(200%,0);
+      transition: 2s;
+      width: 100%;
+    }
+    .hoverMade{
+      width: 100%;
+      transform: translate(0,0);
+      transition: 1s;
+
+    }
+
+  }
+  .col-lg-6{
+    padding: 0 !important;
+  }
+  .services_list{
+    display: flex;
+    flex-direction: column;
+    
+.list_item{
+  h2{
+    cursor: default;
+  }
+}
+
+      //.items0:hover{
+      //  color:#0bff0a;
+      //  transition: 1s;
+      //}
+
+
+
+    .items0:hover{
+      color:#eaf800;
+      transition: 1s;
+
+    }
+
+    .items1:hover{
+      color:#de80d2;
+      transition: 1s;
+    }
+    .items2:hover{
+      color:#00c590;
+      transition: 1s;
+    }
+    .items3:hover{
+      color:#cccccc;
+      transition: 1s;
+    }
+    .items4:hover{
+      color:#ff6069;
+      transition: 1s;
+    }
+    .items5:hover{
+      color:#ffd972;
+      transition: 1s;
+    }
+    .items1{
+      transition: 1s;
+      color:white;
+
+
+    }
+
+    .items2{
+      transition: 1s;
+      color:white;
+
+    }
+    .items3{
+      transition: 1s;
+      color:white;
+
+    }
+    .items4{
+      transition: 1s;
+      color:white;
+
+  }
+    .items5{
+      transition: 1s;
+      color:white;
+
+    }
+    .items6{
+      transition: 1s;
+      color:white;
+
+    }
+    .items0{
+      transition: 1s;
+      color:white;
+
+    }
+
+    .list_item{
+      margin-left: 2vw;
+      color:white;
+
+      letter-spacing: 2px;
+      h2{
+        font-weight: bolder;
+        display: inline-block;
+        margin: 0;
+        padding: 2vh;
+      }
+    }
+  }
+}
+.services .col-lg-6 {
+  padding: 20vh 0 !important;
+}

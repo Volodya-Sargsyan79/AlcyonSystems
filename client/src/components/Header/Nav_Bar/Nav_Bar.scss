@@ -1,0 +1,152 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+ul{
+  list-style-type:none;
+  padding: 0;
+  align-self: start;
+  // margin: 25px;
+}
+.containers {
+  display: flex;
+
+ flex-direction : row-reverse;
+  width: 70%;
+
+  ul.menu {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    li {
+      position: relative;
+      background:black;
+      margin: 10px;
+      height: 2px;
+      width: 50px;
+
+      // border-radius:20px;
+      transition: transform .3s, width .3s;
+    }
+  }
+  .active_menu {
+    transition-delay: 0s;
+    pointer-events: all;
+    li{
+      &:nth-child(1){
+        top: 18px;
+        transform: rotate(135deg);
+        transition: transform .3s;
+        background: black;
+      }
+      &:nth-child(2){
+        width: 0;
+        // transform: rotate(180deg);
+        transition: width .3s;
+      }
+      &:nth-child(3){
+        bottom: 18px;
+        transform: rotate(-135deg);
+        transition: transform .3s;
+        background: black;
+      }
+    }
+  }
+  @keyframes nav {
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+
+    }
+  }
+
+}
+
+
+.item_menu{
+  display: flex;
+  align-items: center;
+  div{
+    flex: 1;
+    font-size: 150%;
+    font-weight: bolder;
+    margin-right: 90px;
+    cursor: pointer;
+    transition: .6s;
+    text-transform: uppercase;
+    &:hover{
+      color: #004681;
+      transition: .6s;
+    }
+  }
+  .item{
+    transform: scale(0);
+    transition: .5s;
+  }
+  .active_item{
+    transform: scale(1);
+    transition: .5s;
+
+  }
+}
+.langAm{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  div{
+    flex: 1;
+    font-size: 120%;
+    font-weight: bolder;
+    margin-right: 80px;
+    cursor: pointer;
+    transition: .6s;
+    &:hover{
+      color: #004681;
+      transition: .6s;
+    }
+  }
+  .item{
+    transform: scale(0);
+    transition: .5s;
+  }
+  .active_item{
+    transform: scale(1);
+    transition: .5s;
+   .as{
+     width: 175%;
+     margin-right: 30px;
+   }
+  }
+}
+.langRu{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  div{
+    flex: 1;
+    font-size: 120%;
+    font-weight: bolder;
+    margin-right: 90px;
+    cursor: pointer;
+    transition: .6s;
+    &:hover{
+      color: #004681;
+      transition: .6s;
+    }
+  }
+  .item{
+    transform: scale(0);
+    transition: .5s;
+  }
+  .active_item{
+    transform: scale(1);
+    transition: .5s;
+    .as{
+      width: 175%;
+      margin-right: 30px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+    "headerMenu":{
+        "1":"Home",
+        "2":"About",
+        "3":"Services",
+        "4":"Portfolio",
+        "5":"Vacancies",
+        "6":"Team",
+        "7":"Contact"
+       
+    },
+    "headers":{
+        "1":"Web Development",
+        "2":"Experienced Team",
+        "3":"Award-Winning Software"
+        
+   },
+   "mainSrev":{
+    "1":"Since our establishment, we have been delivering high quality and sustainable software solutions for corporate purposes of business.",
+    "2":"We are a team of qualified software developers, aimned at creating unique and powerful tools for your business & everyday life.",
+    "3":"The software solutions developed by our company have been numerously awarded for usability and innovative features."
+},
+"Services":{
+    "1":"Web Development",
+    "2":"It's difficult to imagine a successful business without a good website, which will best describe your company's what, how, why and who. We are Alcyon team and if you want a web based on unique solutions, you are in the right place. ",
+    "3":"Web Design",
+    "4":"If you want to attract more customers to your website, you will need solid design to reach your goal. Our creative designers will breathe life into your website. ",
+    "5":"Ecommerce",
+    "6":"Day by day the ecommerce growth reinforces, which means that there is still endless opportunity for brands to start-up an ecommerce website and maximise its earnings. With our ecommerce service you can have the key to the successful online sales. ",
+    "7":"QA Testing",
+    "8":"Another vital role of complete website is QA testing. It is meant to increase customer confidence and a company's credibility, while also improving work processes and efficiency. After the testing you can be ensured that it works without any errors and can go live. ",
+    "9":"Web Maintenance",
+    "10":"Updating and adding new content to your website will improve its SEO performance and increase your return on investment. We can take care of your website maintenance, protection and even content updates! If you don’t have time or don’t know how to maintain your website, we are here for you. ",
+    "11":"Responsive design",
+    "12":"Do you know that 63% of web traffic is coming from mobile devices ? It means that if you don't have well structured mobile friendly website, then you have a big chance to lose real customers. With our qualified developers team you'll get fast, professional and mobile friendly website which your customers will adore. ",
+    "13":"SMM",
+    "14":"The more specific your strategy is, the more effective the execution will be. Smart social strategies are several times more likely to seal a deal․ Do not hesitate to contact us. ",
+    "15": "Services"
+},
+    "aboutMe":{
+        "1":"About US",
+        "2":"Being a leading web development company in IT industry, providing excellent customer service and support, we have managed to gain the trust and respect from our clients. Our team is made up of senior and intermediate responsive developers as well. Our clients are always satisfied with our work.",
+        "3":"Alcyon team offers you high quality IT services including web development, web design, ecommerce, QA testing, web maintenance, responsive design and social media. Do you want a user friendly, agile and responsive website? Start it with our team.",
+        "4":"Why Choose Us ",
+        "5":" We have highly skilled engineers with excellent technical knowledge and experience in using latest software standards,\n    tools, platforms, frameworks and technologies and we invest continuously in training and education, to be able to respond ",
+        "6":"to any new technology challenges and demands from our clients. We have a proven track of great success stories, we can offer excellent software development opportunities for your business."
+    },
+
+
+
+    "contact":{
+        "1":"Contact",
+        "2":"Prices",
+        "3":"Please message me for a quote.",
+        "4":"Send me an email:",
+        "5":"Call me on the phone:"
+    },
+    "imprint":{
+        "1":"Imprint",
+        "2":"Roald Amundsens vei 16B",
+        "3":"3616 Kongsberg",
+        "4":"Norway",
+        "5":"VAT ID no.: 919 472 316MVA"
+    },
+    "footer":{
+        "1":"Copyright © 2020 All rights reserved | Designed by"
+    }
+}

@@ -1,0 +1,41 @@
+/* width */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+*{
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+
+@keyframes scrollToTop {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,10px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+  .scroll_to_top{
+    position: sticky;
+    top: 85vh;
+    left: 92%;
+    font-size: 300%;
+    height: 10vh;
+    color: #01517F;
+    animation: scrollToTop 1s infinite;
+    padding-bottom: 8vh;
+    border-bottom: 6px solid #01517F;
+    font-weight: lighter;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1999;
+}
+body{
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}

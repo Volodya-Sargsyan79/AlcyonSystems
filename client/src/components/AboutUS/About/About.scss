@@ -1,0 +1,67 @@
+.about_window{
+  background: url("https://res.cloudinary.com/alcyonsystems/image/upload/v1583139861/AlcyonSystems/about_amfl11.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+
+    .about_tophover{
+      //animation: anim1 1s;
+      transform: translate(0,0);
+      transition: 1s;
+    }
+    .about_bottomhover{
+      //animation: anim2 1s;
+      transform: translate(0,0);
+      transition: 1s;
+    }
+
+  }
+
+  p{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: .9em;
+    margin: 0;
+  }
+
+  margin: 0 auto;
+  .about_tophover{
+    background-color: rgba(0, 134, 170,0.8);
+    width: 100%;
+    padding: 15vh 2vw 0 2vw;
+
+    transform: translate(-180%,0);
+    transition: 1s;
+    flex: 1.2;
+  }
+
+  .about_bottomhover{
+    padding: 0vh 2vw 15vh 2vw;
+    background-color: rgba(0, 134, 170,0.8);
+    transform: translate(180%,0);
+    transition: 1s;
+  flex: 1;
+  }
+
+
+}
+.about_relative{
+  position: relative;
+  margin-top: 5vh;
+  h2{
+    position: absolute;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    z-index: 4;
+    top:92%;
+    letter-spacing: .05em;
+    font-size: 345%;
+    color:#00afd6;
+    
+  }
+}

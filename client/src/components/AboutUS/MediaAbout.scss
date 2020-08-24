@@ -1,0 +1,301 @@
+@media only screen and (max-width: 1920px) {
+    .about_window{
+        p{
+            font-size: 1.1em;
+        }
+    } 
+    .why_window{
+        p{
+            font-size: 1.1em;
+        }   
+    }
+    .about_relative{
+        h2{
+            font-size: 360%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 360%;
+            top:-8%
+        }
+    }
+   
+}
+
+@media only screen and (max-width: 1820px) {
+    .about_window{
+        p{
+            font-size: 1.1em;
+        }
+    } 
+    .why_window{
+        p{
+            font-size: 1.1em;
+        }
+    }
+    .about_relative{
+        h2{
+            font-size: 355%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 355%;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1720px) {
+    .about_window{
+        p{
+            font-size: 1.1em;
+        }
+    } 
+    .why_window{
+       p{
+        font-size: 1.1em;
+       }
+    }
+    .about_relative{
+        h2{
+            font-size: 345%;
+            top:92%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 345%;
+            top: -8%;
+        }
+    }
+    
+}
+@media only screen and (max-width: 1620px) {
+    .about_window{
+        p{
+            font-size: 1.05em;
+        }
+    } 
+    .why_window{
+        p{
+            font-size: 1.05em;
+        }
+    }
+    .about_relative{
+        h2{
+            font-size: 340%;
+            top:93%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 340%;
+            top: -8.1%;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1520px) {
+    .about_window{
+        p{
+            font-size: 1em;
+        }
+    } 
+    .why_window{
+        p{
+            font-size: 1em;
+        }
+    }
+    .about_relative{
+        h2{
+            font-size: 335%;
+            top:93%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 335%;
+            top: -8.1%;
+        }
+    }
+    
+}
+@media only screen and (max-width: 1420px) {
+    .about_window{
+        p{
+            font-size: .9em;
+        }
+    } 
+    .why_window{
+       p{
+        font-size: .9em;
+       }
+    }
+    .about_relative{
+        h2{
+            font-size: 325%;
+            top:93%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 325%;
+            top: -8.1%;
+        }
+    }
+    
+}
+@media only screen and (max-width: 1320px) {
+    .about_window{
+        p{
+            font-size: .8em;
+        }
+    } 
+    .why_window{
+       p{
+        font-size: .8em;
+       }
+    }
+    .about_relative{
+        h2{
+            font-size: 315%;
+            top:93%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 315%;
+            top: -8.1%;
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 1220px) {
+    .about_window{
+        p{
+            font-size: .7em;
+        }
+    } 
+    .why_window{
+       p{
+        font-size: .7em;
+       }
+    }
+    .about_relative{
+        h2{
+            font-size: 295%;
+            top:93%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 295%;
+            top: -8%;
+        }
+    }
+    
+}
+@media only screen and (max-width: 1120px) {
+    .about_window{
+        p{
+            font-size: .7em;
+        }
+    } 
+    .why_window{
+       p{
+        font-size: .7em;
+       }
+    }
+    .about_relative{
+        h2{
+            font-size: 295%;
+            top:93%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 295%;
+            top: -7%;
+        }
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .about_window{
+        p{
+            font-size: .7em;
+        }
+    }
+    .why_window{
+        p{
+            font-size: .7em;
+        }
+    }
+    .about_relative{
+        h2{
+            font-size: 295%;
+            top:95%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 295%;
+            top: -6%;
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .about_window{
+        p{
+            font-size: .7em;
+        }
+    }
+    .why_window{
+        p{
+            font-size: .7em;
+        }
+    }
+    .about_relative{
+        h2{
+            font-size: 250%;
+            top:93.5%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 200%;
+            top: -4.5%;
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+    .about_window{
+        p{
+            font-size: .7em;
+        }
+    }
+    .why_window{
+        p{
+            font-size: .7em;
+        }
+    }
+    .about_relative{
+        h2{
+            font-size: 250%;
+            top:88.8%;
+        }
+    }
+    .why_relative{
+        h2{
+            font-size: 250%;
+            top: -11%;
+        }
+    }
+}

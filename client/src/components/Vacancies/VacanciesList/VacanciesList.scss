@@ -1,0 +1,73 @@
+.list_page{
+    position: absolute;
+    top:0;
+    background: #ffda66;
+    width: 100%;
+    height: 100%;
+    padding: 10vh;
+    transform: translate(-100%,0);
+    
+    transition: .8s;
+}
+    
+.open_list{
+    position: absolute;
+    padding: 10vh;
+    top:0;
+    background: #ffda66;
+    width: 100%;
+    height: 100%;
+    transform: translate(0,0);
+    transition: .8s;
+    
+}
+#mdiv {
+    position: absolute;
+    top:3%;
+    right:5%;
+    
+  
+    height: 10vh;
+    transition: 1s;
+    cursor: pointer;
+  }
+  #mdiv:hover{
+    .mdiv {
+       transform: rotate(315deg);
+       transition: 1s;
+      }
+  }
+  .mdiv {
+    height: 8vh;
+    transition: 1s;
+    width: 1vh;
+    margin-left: 12px;
+    background-color: black;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  
+  .md {
+    height: 8vh;
+    width: 1vh;
+    background-color: black;
+    transform: rotate(90deg);
+    z-index: 2;
+  }
+  .career_items_list{
+    width: 90%;
+    margin: 0 auto;
+    li{
+      list-style-type:disc; 
+      font-size: 14px;
+      margin-top: .2em;
+    }
+    h3{
+      margin-bottom: 1em;
+    }
+  }
+  .career_items_list2{
+    
+    margin: 0 auto;
+  }
+  
